@@ -1,6 +1,6 @@
 import './Login.css'
 
-export default function Login() {
+const Login = () => {
   return (
     <div className="container">
         <div className="right">
@@ -11,11 +11,16 @@ export default function Login() {
                 <input type="text" placeholder="Username"/>
                 <input type="password" placeholder="Password"/>
             </form>
+
             <div className="links">
                 <a href="/" className='login-link'>Login</a>
-                <a href="/" className='forgot-link'>Have an account?</a>
+                <p>Don't have an account?
+                <a href="/" className='forgot-link'>SignUp</a>
+                </p>
             </div>
         </div>
     </div>
   )
 }
+
+export default Login;

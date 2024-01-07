@@ -5,6 +5,8 @@
 }
 
 .container{
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +27,9 @@
 }
 
 .right .title h2{
-    font-weight: 800;
+    font-weight: 700;
+    text-align: center;
+    color: #f15d08;
 }
 
 .right form{
@@ -35,7 +39,7 @@
 }
 
 form input{
-    width: 300px;
+    width: 350px;
     height: 40px;
     outline: none;
     border: none;
@@ -59,13 +63,23 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #129be6;
+    background-color: #f15d08;
     width: 100px;
     height: 40px;
     font-size: 13px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 5px;
+}
+
+.links p{
+    display: flex;
+    gap: 10px;
+}
+
+.right .links a.forgot-link {
+    color: #f15d08;
+    font-weight: bold;
 }
 
 
