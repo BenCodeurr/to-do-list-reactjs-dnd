@@ -15,7 +15,7 @@ const SignUp = () => {
           <form action="">
             <input type="text" name="" placeholder="Name" required />
             <input type="email" name="" placeholder="Email" required />
-            <input type="password" name="" placeholder="Name" required />
+            <input type="password" name="" placeholder="Password" required />
           </form>
           <div className="buttons">
             <a href="/" className="signup">

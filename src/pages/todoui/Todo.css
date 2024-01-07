@@ -1,0 +1,133 @@
+h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover;
+}
+
+.content-wrapper{
+    background-color: white;
+    width: 70%;
+    height: 90%;
+    /* opacity: .8; */
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-text-container h2 span{
+    color: #EF5E2F;
+}
+
+.date-progress-container{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.date-progress-container .date h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.progression{
+    background-color: #EF5E2F;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    width: 40%;
+    position: relative;
+}
+
+.progression .percentage{
+    width: 100px;
+    height: 100px;
+}
+
+.progression h4{
+    font-size: 25px;
+}
+
+.progression p{
+    color: white;
+}
+.progression p span{
+    font-weight: bold;
+}
+
+.add{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    background-color: #EF5E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 135px;
+    right: 350px;
+    cursor: pointer;
+}
+
+.add p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px 0 10px 0;
+    width: 300px;
+    border-top: 30px solid rgb(4, 89, 207);
+    position: relative;
+    padding: 20px;
+}
+
+.card p{
+    display: flex;
+    font-size: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    gap: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h4{
+    position: absolute;
+    top: -24px;
+    color: white;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
