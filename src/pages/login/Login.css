@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.right{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    opacity: .9;
+}
+
+.right .title h2{
+    font-weight: 700;
+    text-align: center;
+    color: #EF5E2F;
+}
+
+.right form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+form input{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.right .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    /* margin-bottom: 40px; */
+}
+
+.right .links a{
+    color: white;
+}
+
+.right .links a.login-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF5E2F;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.links p{
+    display: flex;
+    gap: 10px;
+}
+
+.right .links a.forgot-link {
+    color: #EF5E2F;
+    font-weight: bold;
+}
+
+
+
