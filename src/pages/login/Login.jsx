@@ -3,6 +3,7 @@ import './Login.css'
 const Login = () => {
   return (
     <div className="container">
+        <div className="left"></div>
         <div className="right">
             <div className="title">
                 <h2>Login to your account</h2>

@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-image: url('../../assets/background.jpg');
+    background-image: url('../../assets/bg.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,16 +13,25 @@
     height: 100vh;
 }
 
+.left{
+    width: 200px;
+    background-image: url('../../assets/notetaking.jpg');
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 0px 0px 10px;
+}
+
 .right{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     gap: 40px;
     justify-content: center;
     color: white;
     padding: 50px;
-    border-radius: 10px;
-    opacity: .9;
+    /* opacity: .9; */
+    height: 350px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .right .title h2{
@@ -42,7 +51,9 @@ form input{
     height: 40px;
     outline: none;
     border: none;
-    border-radius: 20px;
+    border: 1px solid #dedfe1;
+    background-color: #F2F4F6;
+    border-radius: 5px;
     padding-left: 20px;
 }
 
