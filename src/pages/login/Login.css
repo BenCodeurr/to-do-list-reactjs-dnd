@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-image: url('../../assets/background.jpg');
+    background-image: url('../../assets/bg.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,16 +13,25 @@
     height: 100vh;
 }
 
+.left{
+    width: 200px;
+    background-image: url('../../assets/notetaking.jpg');
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 0px 0px 10px;
+}
+
 .right{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     gap: 40px;
     justify-content: center;
     color: white;
     padding: 50px;
-    border-radius: 10px;
-    opacity: .9;
+    /* opacity: .9; */
+    height: 350px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .right .title h2{
@@ -42,8 +51,25 @@ form input{
     height: 40px;
     outline: none;
     border: none;
-    border-radius: 20px;
+    border: 1px solid #dedfe1;
+    background-color: #F2F4F6;
+    border-radius: 5px;
     padding-left: 20px;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF5E2F;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 .right .links{
@@ -59,19 +85,6 @@ form input{
     color: white;
 }
 
-.right .links a.login-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EF5E2F;
-    width: 100px;
-    height: 40px;
-    font-size: 13px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
 .links p{
     display: flex;
     gap: 10px;
@@ -80,6 +93,12 @@ form input{
 .right .links a.forgot-link {
     color: #EF5E2F;
     font-weight: bold;
+}
+
+.container p.error{
+    color: red;
+    margin-top: -20px;
+    text-align: center;
 }
 
 
